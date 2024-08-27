@@ -14,7 +14,7 @@ const Login = () => {
   const login = async()=>{
     console.log("Login function executed ",formData);
     let responseData;
-  await fetch('http://localhost:4000/login',{
+  await fetch('https://merchanza-bend.onrender.com/login',{
     method:'POST',
     headers:{
       Accept:'application/formData',
