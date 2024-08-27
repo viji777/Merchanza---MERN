@@ -7,7 +7,7 @@ const multer = require("multer");
 const cors = require("cors");
 const path = require("path");
 const { type } = require("os");
-import 'dotenv/config'
+require('dotenv').config()
 
 app.use(express.json());
 app.use(cors());
